@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>MSL Suite - jmgonza6@github</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/cayman.css">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">MSL Suite</h1>
+      <h2 class="project-tagline">A simple library for assisting MD/DFT simulations </h2>
+      <a href="index.html" class="btn">Home</a>
+      <a href="docs.html" class="btn">Documentation</a>
+      <a href="install.html" class="btn">Install</a>
+      <a href="https://github.com/jmgonza6/msl-suite" class="btn">View on GitHub</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+      <a id="building-the-libraries" class="anchor" href="#building-the-libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Building the libraries</h1>
+
+      <p>These libraries can be built as either shared objects (<em>.so</em>) or as an archive (<em>.a</em>).<br>
+      Simply execute the following accordingly:</p>
+
+      
+      <pre><code>$ cd lib
+$ make shared && make shared-install
+$ cd ../</code></pre>
+
+      <pre><code>$ cd lib
+$ make archive && make archive-install
+$ cd ../</code></pre>
+
+      <p>To change the default install directory, <code>/usr/local/lib</code> and <code>/usr/local/include</code>, run as,</p>
+
+      <pre><code>$ make &#60target&#62 LIB_DIR=/lib/path/you/want/instead INC_DIR=/include/path/you/want/instead ...</code></pre>
+
+      <p>This will build all the libraries individually with their .a/.so files contained in their main directory
+      as well as being installed in the proper directory.</p>
+
+      <p>If you need just a single library, run the following to see how to make that target,</p>
+
+      <pre><code>$ make help</code></pre>
+
+      <p>Note: By default, in the serial codes, it is assumed that you are using icc/icpc/ifort 
+      (Intel compilers) in your environment.  If you are using some other compiler, execute 
+      the following instead of basic (c)make, for example:</p>
+
+      <pre><code>$ make &#60target&#62 CC=gcc ...</code></pre>
+
+      <footer class="site-footer">
+        <span class="site-footer-credits">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  </body>
+</html>

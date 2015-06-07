@@ -1,0 +1,11 @@
+\form#0:$^{-1} $
+\form#1:$ f(x)=a\exp(\frac{(x-x_0)^2}{2\sigma^2}) $
+\form#2:$ f(x)=\frac{a}{\gamma \pi}\frac{\gamma^2}{(x-x_0)^2+\gamma^2}$
+\form#3:$ \gamma $
+\form#4:$ \sqrt{\sum_{i}^{n} v_{i}*v_{i} } $
+\form#5:$ \sum_{i}^{n} a_{i}*b_{i} $
+\form#6:$ \arccos \frac{\textbf{a} \cdot \textbf{b}}{|\textbf{a}||\textbf{b}|} $
+\form#7:$ \textbf{a} \times \textbf{b} = \textbf{c} $
+\form#8:$ \textbf{A}\textbf{X} = \textbf{B} $
+\form#9:$ \alpha \textbf{x} \otimes \textbf{y} = \textbf{A} $
+\form#10:$ \alpha \textbf{op}( \textbf{A} ) \textbf{op}( \textbf{B} ) = \textbf{C} $

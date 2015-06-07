@@ -1,0 +1,32 @@
+\form#0:$ f(x)=aexp(((x-x_0)^2)/(2*s^2)) $
+\form#1:$ f(x)=aexp(((x-x_0)^2)/(2s^2)) $
+\form#2:$ f(x)=\frac{1}{2}aexp(((x-x_0)^2)/(2s^2)) $
+\form#3:$ f(x)=aexp(((x-x_0)^2)/(2\sigma^2)) $
+\form#4:$ f(x)=\frac{1}{\gamma \pi}aexp(((x-x_0)^2)/(2s^2)) $
+\form#5:$ f(x)=\frac{1}{\gamma \pi}\exp(((x-x_0)^2)/(2s^2)) $
+\form#6:$ f(x)=a\exp(\frac{((x-x_0)^2)}{(2\sigma^2)}) $
+\form#7:$ f(x)=\frac{1}{\gamma \pi}\frac{\gamma^2}{((x-x_0)^2)+\gamma^2}$
+\form#8:$ f(x)=a\exp(\frac{(x-x_0)^2}{2\sigma^2}) $
+\form#9:$ f(x)=\frac{1}{\gamma \pi}\frac{\gamma^2}{(x-x_0)^2+\gamma^2}$
+\form#10:$ f(x)=\frac{a}{\gamma \pi}\frac{\gamma^2}{(x-x_0)^2+\gamma^2}$
+\form#11:$ \gamma $
+\form#12:$ \sum_{i}^{n} \sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
+\form#13:$ \sqrt{\left(\sum_{i}^{n} \right)} $
+\form#14:$ \sqrt{\left(\sum_{i}^{n} v_{i}*v_{i} \right)} $
+\form#15:$ \sqrt{\sum_{i}^{n} v_{i}*v_{i} } $
+\form#16:$ \sum_{i}^{n} a_{i}*b_{i} $
+\form#17:$ \arccos $
+\form#18:$ \arccos (\b a \cdot \b b) $
+\form#19:$ \arccos (\b a \cdot \textbf{b}) $
+\form#20:$ \arccos \textbf{a} \cdot \textbf{b} / |\textbf{a}||\textbf{b}| $
+\form#21:$ \arccos \frac{\textbf{a} \cdot \textbf{b}}{|\textbf{a}||\textbf{b}|} $
+\form#22:$ \textbf{a} \times \textbf{b} $
+\form#23:$ \textbf{B}=\textbf{A}\textbf{X} $
+\form#24:$ \textbf{A}\textbf{X} = \textbf{B} $
+\form#25:$ \textbf{a} \times \textbf{b} = \textbf{c} $
+\form#26:$ \alpha \textbf{x} \times \textbf{y} = \textbf{A} $
+\form#27:$ \alpha $
+\form#28:$ \alpha \textbf{x} \otimes \textbf{y} = \textbf{A} $
+\form#29:$ \alpha op(\textbf{A}) op(\textbf{B}) = \textbf{C} $
+\form#30:$ \alpha \textbf{op}(\textbf{A}) \textbf{op}(\textbf{B}) = \textbf{C} $
+\form#31:$ \alpha \textbf{op}( \textbf{A} ) \textbf{op}( \textbf{B} ) = \textbf{C} $
