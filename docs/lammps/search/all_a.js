@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['new_5f1d',['new_1d',['../class_m_e_m_o_r_y.html#a1fd854d47a241ddb418c721803c18729',1,'MEMORY']]],
-  ['new_5f2d',['new_2d',['../class_m_e_m_o_r_y.html#a3c514c2481d2476bf9eb8afd643de659',1,'MEMORY']]]
+  ['set_5fbox',['set_box',['../class_l_a_m_m_p_s.html#ab5add0af9d0542029263bd8f913636a7',1,'LAMMPS']]],
+  ['set_5funitcell',['set_unitcell',['../class_l_a_m_m_p_s.html#a88fd2d8982d8a3ebe57b6e4cfe27760f',1,'LAMMPS']]],
+  ['show_5fplot_5foptions',['show_plot_options',['../class_l_a_m_m_p_s.html#af7fd5f5a70a0510d27fe1fbfab2a2c4a',1,'LAMMPS']]]
 ];

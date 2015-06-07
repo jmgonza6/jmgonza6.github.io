@@ -150,10 +150,10 @@ prints from data <b><code>output</code></b> and <b><code>outbox</code></b> to st
 <tr class="memdesc:a892423c58b3ce6dcbafcb3d13cc5f7d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply tension the input coordinates in a specified direction<br />
 stores results in global struct, <b><code>output</code></b> and <b><code>outbox</code></b>  <a href="#a892423c58b3ce6dcbafcb3d13cc5f7d3">More...</a><br /></td></tr>
 <tr class="separator:a892423c58b3ce6dcbafcb3d13cc5f7d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab932652d97388d32529d8b2b2baf548e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_a_m_m_p_s.html#ab932652d97388d32529d8b2b2baf548e">replicate</a> (int nx, int ny, int nz)</td></tr>
-<tr class="memdesc:ab932652d97388d32529d8b2b2baf548e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Periodically repeat a <a class="el" href="class_l_a_m_m_p_s.html" title="Tools designed to assist in graphene simulations in LAMMPS ">LAMMPS</a> data file,<br />
-stores results in global struct, <b><code>output</code></b> and <b><code>outbox</code></b>  <a href="#ab932652d97388d32529d8b2b2baf548e">More...</a><br /></td></tr>
-<tr class="separator:ab932652d97388d32529d8b2b2baf548e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22700b332b81f4120a90dcf7f4e6e187"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_a_m_m_p_s.html#a22700b332b81f4120a90dcf7f4e6e187">repeat_cell</a> (int nx, int ny, int nz)</td></tr>
+<tr class="memdesc:a22700b332b81f4120a90dcf7f4e6e187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Periodically repeat a <a class="el" href="class_l_a_m_m_p_s.html" title="Tools designed to assist in graphene simulations in LAMMPS ">LAMMPS</a> data file,<br />
+stores results in global struct, <b><code>output</code></b> and <b><code>outbox</code></b>  <a href="#a22700b332b81f4120a90dcf7f4e6e187">More...</a><br /></td></tr>
+<tr class="separator:a22700b332b81f4120a90dcf7f4e6e187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ba8f1797e831172b48a259b6ade04d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_a_m_m_p_s.html#a8ba8f1797e831172b48a259b6ade04d4">read_log</a> (const char *logfile, int entry, std::string x, std::string y)</td></tr>
 <tr class="memdesc:a8ba8f1797e831172b48a259b6ade04d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read logfile for user specified quantities x and y<br />
 can accept custom keywords. Store results in global struct, <b><code>thermo</code></b>  <a href="#a8ba8f1797e831172b48a259b6ade04d4">More...</a><br /></td></tr>
@@ -171,18 +171,6 @@ places column identifiers at top with a leading #. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a97d59dda8a43eef391d90e9f8cc45997"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a97d59dda8a43eef391d90e9f8cc45997"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_a_m_m_p_s.html#a97d59dda8a43eef391d90e9f8cc45997">qsort</a> (std::vector&lt; int &gt; &amp;types, int start, int end)</td></tr>
-<tr class="memdesc:a97d59dda8a43eef391d90e9f8cc45997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quick sort implementation for 1D stl vectors. <br /></td></tr>
-<tr class="separator:a97d59dda8a43eef391d90e9f8cc45997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81228d84a4bec185e6b108eeed64dbdf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81228d84a4bec185e6b108eeed64dbdf"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_a_m_m_p_s.html#a81228d84a4bec185e6b108eeed64dbdf">split_list</a> (std::vector&lt; int &gt; &amp;tlist, int low, int high)</td></tr>
-<tr class="memdesc:a81228d84a4bec185e6b108eeed64dbdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partition 1D vector based on pivot method, used for qsort. <br /></td></tr>
-<tr class="separator:a81228d84a4bec185e6b108eeed64dbdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d501af252abae2f77ae2e0ff6c67827"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d501af252abae2f77ae2e0ff6c67827"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_a_m_m_p_s.html#a9d501af252abae2f77ae2e0ff6c67827">exch</a> (std::vector&lt; int &gt; &amp;tlist, int i, int j)</td></tr>
-<tr class="memdesc:a9d501af252abae2f77ae2e0ff6c67827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchange elements in list, used in qsort. <br /></td></tr>
-<tr class="separator:a9d501af252abae2f77ae2e0ff6c67827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88fd2d8982d8a3ebe57b6e4cfe27760f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88fd2d8982d8a3ebe57b6e4cfe27760f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_a_m_m_p_s.html#a88fd2d8982d8a3ebe57b6e4cfe27760f">set_unitcell</a> ()</td></tr>
 <tr class="memdesc:a88fd2d8982d8a3ebe57b6e4cfe27760f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set unitcell stuct, four or two. <br /></td></tr>
@@ -572,12 +560,12 @@ can accept custom keywords. Store results in global struct, <b><code>thermo</cod
 
 </div>
 </div>
-<a class="anchor" id="ab932652d97388d32529d8b2b2baf548e"></a>
+<a class="anchor" id="a22700b332b81f4120a90dcf7f4e6e187"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void LAMMPS::replicate </td>
+          <td class="memname">void LAMMPS::repeat_cell </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>nx</em>, </td>
@@ -621,7 +609,7 @@ stores results in global struct, <b><code>output</code></b> and <b><code>outbox<
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 30 2015 15:59:17 for LibLAMMPS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Jun 7 2015 16:48:36 for LibLAMMPS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qsort',['qsort',['../class_l_a_m_m_p_s.html#a97d59dda8a43eef391d90e9f8cc45997',1,'LAMMPS']]]
+  ['_7elammps',['~LAMMPS',['../class_l_a_m_m_p_s.html#aafb76336ea29ed85ecbd5ad8635b0049',1,'LAMMPS']]]
 ];

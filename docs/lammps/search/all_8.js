@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['liblammps_20version_200_2e1',['LibLAMMPS version 0.1',['../index.html',1,'']]],
-  ['lammps',['LAMMPS',['../class_l_a_m_m_p_s.html',1,'LAMMPS'],['../class_l_a_m_m_p_s.html#a3fab5c59282b9aa85d91ef2ea821cc08',1,'LAMMPS::LAMMPS()']]]
+  ['plot_5flog_5fdata',['plot_log_data',['../class_l_a_m_m_p_s.html#aa1e61bf747005d13358a3be42e3a6cc8',1,'LAMMPS']]]
 ];
